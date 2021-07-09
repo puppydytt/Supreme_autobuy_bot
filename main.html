@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Bot Settings</title>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img class="headerImage"
+             src="media/kisspng-computer-icons-clip-art-settings-5b366a3f8a2038.3000721915302927995658.png"
+             draggable="false"/>
+    </div>
+</div>
+<div class="body">
+    <div class="inputBlock">
+        <input class="infoInput" placeholder="Full Name" id="name"/>
+        <input class="infoInput" placeholder="Email" id="email" />
+        <input class="infoInput" placeholder="Phone" id="phone" />
+        <input class="infoInput" placeholder="Street Line 1" id="street1"/>
+        <div class="formStreet">
+            <input class="infoInput2" placeholder="Street Line 2" id="street2"/>
+            <input class="infoInput3" placeholder="Street Line 3" id="street3" />
+        </div>
+        <input class="infoInput" placeholder="City" id="city"/>
+        <input class="infoInput" placeholder="Post Code" id="postcode"/>
+        <div class="sizeGuide">
+            <label>
+                <a class="nameTag">Clothes size</a>
+                <select class="size" id="sizeCloth">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XLarge</option>
+                </select>
+            </label>
+            <label>
+                <a class="nameTag">Sneakers US size</a>
+                <select class="size" id="sizeSneakers">
+                    <option> 7 </option>
+                    <option> 7.5 </option>
+                    <option> 8 </option>
+                    <option> 8.5 </option>
+                    <option> 9 </option>
+                    <option> 9.5 </option>
+                    <option> 10 </option>
+                    <option> 10.5 </option>
+                    <option> 11 </option>
+                    <option> 11.5 </option>
+                    <option> 12 </option>
+                </select>
+            </label>
+            </select>
+        </div>
+    </div>
+        <div class="cardInfo">
+            <label>
+                <input id='in1' class="cardNum" maxlength="19" onpaste="return false;" placeholder="XXXX XXXX XXXX XXXX"/>
+            </label>
+            <div class="expCvv">
+                <div style="float: left">
+                    <label>
+                        <input  maxlength="5" class="expDate" placeholder="DD/YY" id="cardExp"/>
+                    </label>
+                </div>
+                <label>
+                    <input class="cvv" maxlength="3" placeholder="CVV" id="cardCvv">
+                </label>
+            </div>
+        </div>
+        <input type="submit" value="Save Info" class="saveInfo">
+        <div class="authorInfo">MIT License, created by Mykola Yehorov</div>
+    </div>
+</div>
+</body>
+</html>

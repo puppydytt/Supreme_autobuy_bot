@@ -1,0 +1,81 @@
+body {
+    background-color: #2a2a2a;
+}
+
+.mainTimerPage {
+    margin: 300px auto;
+    border: 2px solid black;
+    width: 800px;
+    transform: translateZ(1px);
+}
+
+.dateContainer {
+    text-align: center;
+}
+
+.hours {
+    background-color: #2a2a2a;
+    display: inline;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #1a1a1a;
+    color: #8c8c8c;
+    width: 200px;
+    height: 30px;
+}
+
+
+.minutes {
+    background-color: #2a2a2a;
+    display: inline;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #8c8c8c;
+    border-bottom: 1px solid #1a1a1a;
+    width: 200px;
+    height: 30px;
+}
+
+.seconds {
+    background-color: #2a2a2a;
+    display: inline;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #8c8c8c;
+    border-bottom: 1px solid #1a1a1a;
+    width: 200px;
+    height: 30px;
+}
+
+.saveDate {
+    display: inline;
+    margin: 5px auto;
+}
+
+.refreshPage {
+    display: inline;
+    border: none;
+    width: 20px;
+}
+
+.timerBlock {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #8c8c8c;
+}
+
+.refreshInterval {
+    background-color: #2a2a2a;
+    display: inline;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #8c8c8c;
+    border-bottom: 1px solid #1a1a1a;
+    width: 70px;
+    height: 30px;
+}

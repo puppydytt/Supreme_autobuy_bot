@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: #2a2a2a;
+}
+
+.header {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.logo {
+    text-align: center;
+}
+
+.headerImage {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.body {
+    margin: 15px;
+    width: auto;
+    height: 760px;
+    text-align: center;
+}
+
+.inputBlock {
+    margin: 20px auto;
+    width: 600px;
+    height: auto;
+}
+
+.infoInput {
+    background-color: #2a2a2a;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    color: #8c8c8c;
+    margin: 10px;
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-shadow: #111111 0 1px;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.infoInput2 {
+    background-color: #2a2a2a;
+    color: #8c8c8c;
+    display: inline;
+    float: left;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-shadow: #111111 0 1px;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.infoInput3 {
+    background-color: #2a2a2a;
+    float: right;
+    display: inline;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    color: #8c8c8c;
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-shadow: #111111 0 1px;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.formStreet {
+    display: inline-block;
+    width: 500px;
+}
+
+.saveInfo {
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    background-color: #303030;
+    border: none;
+    color: #8c8c8c;
+    font-size: medium;
+    font-family: 'Bitter', serif;
+    box-shadow: #1a1a1a 2px 2px;
+}
+
+.saveInfo:active {
+    transform: translateY(1px);
+    background-color: #211c18;
+}
+
+.authorInfo {
+    margin: 30px 0 0 0;
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.cardInfo {
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 5px auto;
+    background-color: #262626;
+    box-shadow: #1a1a1a 2px 2px;
+    transform: translateY(1px);
+}
+
+.cardNum {
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-size: 18px;
+    height: 40px;
+    color: #8c8c8c;
+    width: 380px;
+    border: none;
+    font-family: 'Bitter', serif;
+    border-bottom: 1px solid #1a1a1a;
+    background-color: #262626;
+    outline: none;
+}
+
+.expCvv {
+    margin: 50px 0 0 0;
+    display: inline-block;
+    width: 380px;
+    height: 40px;
+}
+
+.cvv {
+    color: #8c8c8c;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    float: right;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #1a1a1a;
+    outline: none;
+    background-color: #262626;
+}
+
+.expDate {
+    color: #8c8c8c;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    float: right;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #1a1a1a;
+    outline: none;
+    background-color: #262626;
+}
+
+.sizeGuide {
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+}
+
+.size {
+    color: #8c8c8c;
+    background-color: #2a2a2a;
+    display: inline;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    box-shadow: #111111 0 1px;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.nameTag {
+    position: fixed;
+    font-size: 11px;
+    font-family: 'Bitter', serif;
+    color: #8c8c8c;
+}
+
+
+
+

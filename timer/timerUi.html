@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <script src="timer.js"></script>
+    <link href="timerStyles.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="main" class="mainTimerPage">
+    <div id="rerenderElement">
+        <div class="dateContainer">
+            <div class="dateInfo">
+                <input class="hours" placeholder="hours" id="hours" maxlength="2"/> :
+                <input class="minutes" placeholder="min" id="min" maxlength="2"/> :
+                <input class="seconds" placeholder="sec" id="sec" maxlength="2"/>
+                <select id="amPm">
+                    <option>AM</option>
+                    <option>PM</option>
+                </select>
+                <div class="saveBlock">
+                    <input type="button" value="Set Timer" class="saveDate" id="setTimer"/>
+                    <input class="refreshInterval" placeholder="refresh Interval" maxlength="2"/>
+                    <a>:Seconds</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
