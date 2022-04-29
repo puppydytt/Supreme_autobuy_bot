@@ -54,7 +54,7 @@ const removeTask = (container, task) => {
 };
 
 const addTask = (container, input) => {
-    const taskToSet = () => {
+    const taskToSet = (modified) => {
         const task = document.createElement('div'),
             removeButton = document.createElement('input');
         task.className = 'task';
@@ -67,12 +67,12 @@ const addTask = (container, input) => {
         task.appendChild(removeButton);
         input.value = '';
     };
-
     chrome.storage.local.get(['keyWord'], storage => {
-        if (Object.values(storage).length === 0) {
+        console.log(storage.keyWord.length)
+        if (storage.keyWord.length === 0 || storage.keyWord.length === undefined) {
+            console.log('firstTimeSetted')
             chrome.storage.local.set({keyWord: [input.value.toLowerCase()]}, () => taskToSet());
-        } else if (storage.keyWord.length >= 0) {
-            console.log('1231231232')
+        } else if (storage.keyWord.length > 0) {
             const oldValue = storage.keyWord;
             oldValue.push(input.value.toLowerCase());
             chrome.storage.local.set({keyWord: oldValue}, () => taskToSet());
